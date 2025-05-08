@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu May  8 16:20:36 2025
+Created on Thu May  8 16:04:36 2025
 
 @author: Dudutonetto
 """
