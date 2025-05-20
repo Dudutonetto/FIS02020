@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu May  8 15:41:16 2025
+Created on Thu May  8 16:15:16 2025
 
-@author: Dudutonetto
+@author: dudutonetto
 """
-dir_dados = '/home/Dudutonetto/work/Prog/Python/FIS02020/dados/'
+dir_dados = '/home/dudutonetto/work/Prog/Python/FIS02020/dados/'
 
 #%% 1: Escrevendo em um arquivo (modo texto)
 
