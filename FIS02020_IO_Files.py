@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+<<<<<<< HEAD
 Created on Thu May  8 16:15:16 2025
+=======
+Created on Thu May  8 16:04:36 2025
+>>>>>>> 216fcd564e5c44e9baa1c550a04e30bf0a250b19
 
 @author: dudutonetto
 """
