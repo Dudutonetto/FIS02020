@@ -50,3 +50,14 @@ def graf(a,b,n,x1,x2,sd):
 
 graf(1.5,2,20,4,16,0.4)
 
+def polyfit(a,b,n,x1,x2,sd):
+    p = np.polyfit(xylinear(a, b, n, x1, x2, sd)[0],xylinear(a, b, n, x1, x2, sd)[1],1)
+    pa=np.polyval(p, xylinear(a, b, n, x1, x2, sd)[0])
+    plt.scatter(xylinear(a,b,n,x1,x2,sd)[0],xylinear(a,b,n,x1,x2,sd)[1],s=50,label=f'Medidas, erro={sd}')
+    plt.plot(xylinear(a, b, n, x1, x2, sd)[0],pa, c='r', label=f' a = {p[0]:.4f}, b = {p[1]:.4f}')
+    plt.legend()
+    plt.xlabel("X")
+    plt.ylabel("Y")
+    plt.show()
+
+polyfit(2,6,20,2,10,0.8)
